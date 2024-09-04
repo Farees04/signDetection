@@ -8,7 +8,13 @@ __pycache__/
 
 #folders
 data
-
+data2
+splitdataset128x128
+Logs
+data.pickle
+data2.pickle
+model.pkl
+model2.pkl
 # Distribution / packaging
 .Python
 build/

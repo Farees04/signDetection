@@ -2,13 +2,13 @@ import os
 import cv2
 
 # Directory to store the data
-DATA_DIR = './data'
+DATA_DIR = './data2'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
 # Parameters
-number_of_classes = 26
-dataset_size = 100
+number_of_classes = 5
+dataset_size = 150
 
 # Initialize webcam capture
 cap = cv2.VideoCapture(0)
