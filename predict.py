@@ -73,7 +73,6 @@ while True:
         prediction = model.predict([np.asarray(data_aux)])
         # confidence = model.predict_proba([np.asarray(data_aux)])
         if int(prediction[0]) in [0, 12, 13, 18, 19]:
-            print("using model 2")
             prediction = model2.predict([np.asarray(data_aux)])
             predicted_character = labels_dict2[int(prediction[0])]
         else:
